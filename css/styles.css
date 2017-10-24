@@ -1,122 +1,80 @@
 /**
  * Github Corners, page css
  * Author: Tim Holman
+You dont need this information!!!!
  */
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
+* {box-sizing: border-box;
+}html, body {
     font-family: Helvetica, Arial, sans-serif;
     background: #fff;
     margin: 0px;
-}
-
-h1 {
+}h1 {
     font-size: 30px;
-}
-
-p {
+}p {
     font-size: 16px;
     font-weight: 100;
     line-height: 24px;
-}
-
-.wrapper {
+}.wrapper {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 50px;
     max-width: 580px;
     margin: auto;
 }
-
 /**
- * Demo Code
+ * You don't need this space!!!!
  */
-
 .version {
     border: 2px solid #eee;
     margin-top: 25px;
     height: 200px;
     display: -webkit-flex;
     display: flex;
-}
-
-.version-section {
+}.version-section {
     padding: 10px;
     height: 100%;
-}
-
-.version-section.dark {
+}.version-section.dark {
     background: #151513;
-}
-
-.demo {
+}.demo {
     border-right: 2px solid #eee;
     position: relative;
     width: 200px;
-}
-
-.code {
+}.code {
     vertical-align: top;
     width: 336px;
-}
-
-.code textarea {
+}.code textarea {
     border: 2px solid #eee;
     outline: 0px;
     height: 100%;
     width: 100%;
     font-family: monospace;
     font-size: 10px;
-}
-
-.github-corner:hover .octo-arm {
+}.github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
-}
-
-@keyframes octocat-wave {
+}@keyframes octocat-wave {
   0% {
-    transform: rotate(0deg);
-  }
-  
-  20% {
-    transform: rotate(-25deg);
-  }
-  
+    transform: rotate(0deg);}
+   20% {
+    transform: rotate(-25deg);}
   40% {
     transform: rotate(10deg);
-  }
-  
-  60% {
+  } 60% {
    transform: rotate(-25deg);
-  }
-  
-  80% {
+  }80% {
     transform: rotate(10deg);
   }
-  
   100% {
     transform: rotate(0deg);
   }
-}
-
-@media (max-width: 500px) {
+}@media (max-width: 500px) {
     .github-corner:hover .octo-arm {
-        animation: none;
-    }
-
-    .github-corner .octo-arm {
+        animation: none; }.github-corner .octo-arm {
         animation: octocat-wave 560ms ease-in-out;
-    }
-}
+ }}
 
 /**
- * Footer
- */
-
-footer {
+ * You don't have to repeat the title!!! You already have footer down there!!!! You dont need it again!!!!
+ */footer {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 100px;
@@ -129,42 +87,27 @@ footer {
     font-size: 13px;
     letter-spacing: 1px;
     font-family: monospace;
-}
-
-footer a {
+}footer a {
     color: #2d2d2d;
-}
-
-footer span {
+}footer span {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.twitter-share-button {
+}.twitter-share-button {
     margin-bottom: -4px;
 }
-
 /**
- * Media
+ * You don't need this space here it useless. 
  */
-
 @media (max-width: 500px) {
-
-    footer {
+     footer {
         text-align: center;
         height: auto;
         line-height: 30px;
-    }
-
-    footer span {
+    } footer span {
         display: none;
-    }
-
-    footer a {
+    }footer a {
         display: block;
-    }
-
-    .twitter-share-button {
+   }.twitter-share-button {
         margin-bottom: -8px;
     }
 }
